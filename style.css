@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    overflow-x: hidden;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+.html{
+    padding: 0px 0px 0px;
+    scroll-behavior: smooth;
+}
+.navbar{
+    height: 4rem;
+    background-color:rgb(32, 31, 31);
+    /* color: rgb(191, 76, 76); */
+    display: flex;
+   
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+    position: fixed;
+ 
+    
+}
+li a{ 
+    color: whitesmoke;
+    text-decoration: none;
+    margin: 0px 15px 0px 15px;
+    font-weight: 20px;
+    
+    
+   
+}
+li a:hover{color: rgb(247, 195, 130);
+    cursor: pointer;
+    
+}
+.logo{
+    height: 3rem;
+    width: 3rem;
+    margin-left:-7rem ;
+
+    
+}
+.easy{
+    display: flex;
+    flex-direction:row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    list-style-type: none;
+    color: whitesmoke;
+    
+}
+/* .button{
+    height: 2.2rem;
+    width: 6rem;
+    background-color: whitesmoke; color: black;
+    border-radius: 12px;
+    border: none;
+
+} */
+.btn{
+    display: flex;
+    justify-content: end;
+}
+.about-us{
+    background-image: url(./bacground.jpg);
+    height: calc(100vh);
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    
+   
+}
+
+.text{
+    height: 200px;
+    width: 400px;
+    color: whitesmoke;
+    /* background-color: rgb(31, 128, 173); */
+    font-size: 1.9rem;
+    
+    
+}
+.peragraph{
+    font-size: 1rem; 
+}
+.get-now{
+    height: 2rem;
+    width: 6rem;
+    background-color:  rgb(247, 195, 130);
+    border: none;
+    color:whitesmoke;
+}
+.get-now:hover{
+ 
+    background-color: whitesmoke;
+    color:rgb(247, 195, 130);
+    cursor: pointer;
+}
+/* about us section */
+.contact{
+    height: 100vh;
+    width: 100vw;
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;justify-content: center;
+  
+}
+.about{
+   margin-top: 1rem;
+    font-size: 2rem;
+    color: whitesmoke;
+    display: block;
+    text-align: center; 
+  
+}
+/* .about-color{
+    
+
+} */
+.about-img-text{
+    height: 400px;
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   
+  
+
+    
+
+}
+.about{
+    height: 98.5%;
+    width: 35rem;
+   
+}
+.about-image{
+    width: 35rem;
+    height: 100%;
+
+}
+.about-img{
+    width: 35rem;
+    height: 100%;
+
+}
+/* .about-image img{
+    width: 35rem;
+    height: 100%;
+
+} */
+.about-text{
+    height: 100%;
+    width: 35rem;
+    background-color: rgb(32, 31, 31);
+}
+.child{
+    color: whitesmoke;
+    padding: 40px 10px 20px 20px;
+}
+.heading-tow{
+    font-weight: 100px;
+    font-size: 2rem;
+
+}
+.learn-more{
+    color: whitesmoke;
+    background-color: rgb(247, 195, 130);
+    height: 2rem;
+    width: 7rem;
+    border: 0px;
+    
+
+}
+.learn-more:hover{
+    color: rgb(247, 195, 130);
+    background-color:whitesmoke;
+    cursor: pointer;
+   
+    
+
+}
+.our-menu-text{
+    font-size: 2rem;
+    color: whitesmoke;
+   
+
+}
+
+ /* card section */
+
+
+.card-section{
+    height: 100vh;  
+    width: 100vw;
+    background-color:black;
+   
+}
+.container-child{
+    height: 100%;
+    width: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* margin: 20px 20px 0px 20px; */
+    overflow: hidden;
+}
+.container{
+    height: 250px;
+    width: 250px;
+    background-color: black;
+    /* position: absolute; */
+   
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid grey;
+    color: whitesmoke;
+    font-size: 0.8rem;
+}
+.container:hover{
+    height: 250px;
+    width: 250px;
+    background-color: whitesmoke;
+    /* position: absolute; */
+   
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid grey;
+    color:black;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.card-image{
+    height: 110px;
+    width: 100px;
+    border-radius: 50%;
+    /* background-color: blueviolet; */
+    
+}
+.card-image img{
+    height: 110px;
+    width: 100px;
+    border-radius: 50%;
+
+}
+.card-text{
+    display: flex;
+    justify-content: center;
+    
+}
+.card-btn{
+    display: flex;
+    justify-content: center;
+
+}
+.card-btn button{
+    height: 30px;
+    width: 110px;
+    background-color:  rgb(247, 195, 130);
+    border: none;
+    color: whitesmoke;
+}
+.card-btn button:hover{
+    background-color: whitesmoke;
+    color: black ;
+    cursor: pointer;
+}
+/* contact us */
+
+.contact-us-main{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+
+}
+.contact-us{
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    font-size: 2rem;
+    
+
+}
+.map-text-container{
+    height: 70%;
+    width: 80%;
+    background-color: bisque;
+    display: flex;
+    border: 1px solid grey;
+}
+.map-image {
+    height: 100%;
+    width: 50%;
+    background-color: blueviolet;
+}
+.map-image img{
+    height: 100%;
+    width: 100%;
+
+    background-color: blueviolet;
+}
+
+
+.contact-now{
+    height: 100%;
+    width: 50%;
+    background-color:rgb(32, 31, 31);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    color: whitesmoke;
+}
+
+.input-btn{
+    height: 3rem;
+    width: 80%;
+    border: 1px solid grey;
+    margin-top: 15px;
+    padding: 15px;
+    /* background-color: grey; */
+    color: whitesmoke;
+}
+.contact-btn{
+    height: 2rem;
+    width: 7rem;
+    border: none;
+    margin-top: 25px;
+    background-color: rgb(247, 195, 130);
+    color: whitesmoke;
+}
+.contact-btn:hover{
+    background-color: whitesmoke;
+    color: rgb(247, 195, 130);
+    cursor: pointer;
+}
+
+
+
+
+
+
+.footar{
+    display: flex;
+    justify-content: center;
+   
+    color: whitesmoke;
+    background-color:rgb(32, 31, 31);
+    position: relative;
+    align-items: center;
+    height: 4rem;
+    width: 100%;
+    bottom: -60px;
+}
